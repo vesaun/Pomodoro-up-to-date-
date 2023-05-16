@@ -22,7 +22,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="play/pause"/>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FXQ-Jh-llk"/>
+                                    <action selector="playPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lbg-Dr-puV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tj5-jf-yA2">
@@ -43,8 +43,8 @@
                         <color key="backgroundColor" red="0.76862745098039209" green="0.87450980392156863" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="play" destination="Xs6-kA-az3" id="Ih5-Hu-EyM"/>
-                        <outlet property="timer_display" destination="tj5-jf-yA2" id="kBD-sM-T2M"/>
+                        <outlet property="button" destination="Xs6-kA-az3" id="S4v-3N-Xj0"/>
+                        <outlet property="timer_display" destination="tj5-jf-yA2" id="DR4-1c-hg7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
