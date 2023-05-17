@@ -13,14 +13,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+
     }
     @IBOutlet weak var timer_display: UILabel!
     
     @IBOutlet weak var button: UIButton!
+    
     var time_remaining =  10 * 60
     var timer = Timer()
     var isPaused = true
+    var pause = UIImage(named: "pause_button.png")
+    var play = UIImage(named: "play_button.png")
     
     func startTimer()
     {
@@ -56,11 +59,13 @@ class ViewController: UIViewController {
         {
             startTimer()
             isPaused = false
+            button.setImage(pause, for: .normal)
         }
         else
         {
             endTimer()
             isPaused = true
+            button.setImage(play, for: .normal)
         }
     }
     
