@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				86D74FE52A12E30E00C0E1E4 /* Pomodoro (up to date) */,
-				86D74FFC2A12E31100C0E1E4 /* Pomodoro (up to date)Tests */,
 				86D750062A12E31100C0E1E4 /* Pomodoro (up to date)UITests */,
 				86D74FE42A12E30E00C0E1E4 /* Products */,
 			);
@@ -105,6 +104,7 @@
 				86D74FEC2A12E30F00C0E1E4 /* Main.storyboard */,
 				86D74FEF2A12E31000C0E1E4 /* Assets.xcassets */,
 				86D74FF12A12E31000C0E1E4 /* LaunchScreen.storyboard */,
+				86D74FFC2A12E31100C0E1E4 /* Pomodoro (up to date)Tests */,
 				86D74FF42A12E31000C0E1E4 /* Info.plist */,
 			);
 			path = "Pomodoro (up to date)";
